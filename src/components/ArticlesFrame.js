@@ -9,7 +9,7 @@ import { Modal, ModalHeader, ModalBody, ModalFooter} from 'reactstrap';
 class CardFrame extends Component {
   state={
     people: [
-    {name: "Installing Atom text editor", likes: ["~$ sudo add-apr-repository ppa:webupd8team/atom","~$ sudo apt-get update","~$ sudo apt-get install atom", "~$ atom --version"], image: "atom-text-editor.png"},
+    {name: "Installing Atom text editor", likes: ["~$ sudo add-apt-repository ppa:webupd8team/atom","~$ sudo apt-get update","~$ sudo apt-get install atom", "~$ atom --version"], image: "atom-text-editor.png"},
       {name: "create-react-app", likes: ["~$ sudo apt-get install npm","~$ sudo npm install -g create-react-app","~$ create-react-app myfirstapp"], image: "atom-text-editor.png"},
       {name: "American style popcorn", likes: "Pretzels", image: "atom-text-editor.png"},
       {name: "Rebecca", likes: "Pizza", image: "atom-text-editor.png"},
