@@ -1,0 +1,40 @@
+.code-banner {
+  background: #F5F5F5;
+}
+
+.samplecode {
+  font-family: 'Rokkitt', serif;
+}
+
+.if {
+  color: rgb(198, 120, 189);
+}
+
+.lfor {
+  color: rgb(171, 165, 142);
+}
+
+.blue {
+  color: rgb(88, 175, 227);
+}
+
+.article-card {
+  padding: 5px 5px 5px 5px;
+}
+
+.article-image-card {
+  width: 70%;
+  border-radius: 5px 5px 5px 5px;
+}
+
+.or {
+  color: rgb(88, 175, 227);
+}
+
+.output {
+  color: #3CB371;
+}
+
+.word {
+  color: #A9A9A9;
+}

@@ -1,0 +1,12 @@
+.root-navbar {
+  background: #222222;
+  font-size: 18px;
+}
+
+.nav-buttons {
+  color: white;
+}
+
+.nav-buttons:hover {
+  color: grey;
+}

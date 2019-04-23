@@ -1,0 +1,22 @@
+.card-stack {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.info {
+  color: salmon;
+}
+
+.read-button {
+  background-color: salmon;
+  margin-bottom: 10px;
+}
+
+.align-left {
+  text-align: left;
+  color: salmon;
+}
+
+.Container {
+  width: 100%;
+}

@@ -1,0 +1,15 @@
+.read-button {
+  margin-top: 10px;
+}
+
+.step {
+  color: salmon;
+  text-align: left;
+  margin-left: 25px;
+}
+
+.command {
+  color: black;
+  margin-left: 50px;
+  text-align: left;
+}
