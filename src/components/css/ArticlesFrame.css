@@ -8,6 +8,14 @@
   margin-left: 25px;
 }
 
+.step-detail {
+  color: salmon;
+  font-size: 20px;
+  font-family: 'Muli', sans-serif;
+  text-align: left;
+  margin-left: 50px;
+}
+
 .command {
   color: black;
   margin-left: 50px;
