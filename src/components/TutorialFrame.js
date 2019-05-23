@@ -11,8 +11,17 @@ class TutorialFrame extends Component {
         {name: "Concept of Keys", language: "ReactJS", framelink:"https://www.youtube.com/embed/qhhRuZDuKEM"},
         {name: "map() function", language: "ReactJS", framelink:"https://www.youtube.com/embed/UOToFkB7Xs4"},
         {name: "Changing the state dynamically", language: "ReactJS", framelink:"https://www.youtube.com/embed/AhteAvQk_r0"},
-        {name: "Toggle button example", language: "ReactJS", framelink: "https://www.youtube.com/embed/4lANAs0lvYU"},
-        {name: "Auto adjusting image", language: "HTML and CSS", framelink: "https://www.youtube.com/embed/fZhLphY9FmI"}
+        {name: "Toggle button example", language: "ReactJS", framelink: "https://www.youtube.com/embed/tEMM-HEYTJk"},
+        {name: "Auto adjusting image", language: "HTML and CSS", framelink: "https://www.youtube.com/embed/fZhLphY9FmI"},
+        {name: "Splash screen app", language: "JavaFX", framelink: "https://www.youtube.com/embed/lrg2eT-gz5E"},
+        {name: "Routing", language: "ReactJS - Part I", framelink: "https://www.youtube.com/embed/zicueVUsg0w"},
+        {name: "Routing", language: "ReactJS - Part II", framelink: "https://www.youtube.com/embed/zF63RB0JbEY"},
+        {name: "Cards example", language: "ReactJS", framelink: "https://www.youtube.com/embed/bu-BCFqp7uo"},
+        {name: "Reactstrap", language: "ReactJS", framelink: "https://www.youtube.com/embed/w98Q1JC2DZU"},
+        {name: "Listeneing to changes", language: "ReactJS", framelink: "https://www.youtube.com/embed/cq0-dPm-Uk4"},
+        {name: "Delete state items dynamically", language: "ReactJS", framelink: "https://www.youtube.com/embed/i80G6dL5LhQ"},
+        {name: "Delete state items immutably", language: "ReactJS", framelink: "https://www.youtube.com/embed/O4UW_qgy-Es"},
+        {name: "Accessing state items", language: "ReactJS", framelink: "https://www.youtube.com/embed/BD_dzn43Bcc"}
       ]
     }
   }
