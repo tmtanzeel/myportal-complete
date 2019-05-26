@@ -5,6 +5,7 @@ import {Button} from 'reactstrap';
 import Footer from './Footer';
 import './css/ArticlesFrame.css';
 import { Modal, ModalHeader, ModalBody, ModalFooter} from 'reactstrap';
+import { Link, animateScroll as scroll } from "react-scroll";
 
 class CardFrame extends Component {
   state={
@@ -78,7 +79,9 @@ class CardFrame extends Component {
       return(
           <Col xs="3">
             <ArticleCards details={singlePerson}/>
-            <Button onClick={()=> this.displayOnClick(singlePerson) } className="read-button">{singlePerson.name}</Button>
+            <Link to='content-section' smooth={true} offset={-70} duration={500}>
+              <Button onClick={()=> this.displayOnClick(singlePerson) } className="read-button">{singlePerson.name}</Button>
+            </Link>
           </Col>
         )
       })
@@ -91,6 +94,7 @@ class CardFrame extends Component {
         </Container>
         <br/><br/><br/>
         <hr/>
+        <div id='content-section'></div>
         {content}
         <br/><br/>
         <Footer/>

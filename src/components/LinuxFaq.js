@@ -9,7 +9,7 @@ const LinuxFaq=()=> {
       <NavBar/>
       <div className="headbanner">
         <h2 className="banner-text-1">Got Linux?  Got stuck?</h2>
-        <h3 className="banner-text-2">Start troubleshooting now</h3>        
+        <h3 className="banner-text-2">Start troubleshooting now</h3>
       </div>
       <br/>
       <br/>

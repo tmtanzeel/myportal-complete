@@ -4,6 +4,7 @@ import {Col, Container, Row} from 'reactstrap';
 import {Button} from 'reactstrap';
 import './css/ArticlesFrame.css';
 
+
 class CardFrame extends Component {
   state={
     people: [
@@ -33,8 +34,6 @@ class CardFrame extends Component {
       rendernow: !currentview
     })
   }
-
-
 
   render() {
     let content=null;
