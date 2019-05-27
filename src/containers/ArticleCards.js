@@ -8,8 +8,9 @@ const ArticleCards=(props)=> {
       <br/>
       <br/>
       <Card>
-        <img src={require('./usable/'+props.details.image)} alt={props.details.image}/>
-        
+        <div className='image-container'>
+          <img className='article-image' src={require('./usable/'+props.details.image)} alt={props.details.image}/>
+        </div>
       </Card>
     </div>
   );
