@@ -9,7 +9,7 @@ class TutorialCards extends Component {
         <br/>
         <br/>
         <Card>
-          <iframe  src={this.props.details.framelink} frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe>
+          <iframe title="myFrame" src={this.props.details.framelink} frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe>
           <CardBody>
             <CardTitle className="info">{this.props.details.name} in {this.props.details.language}</CardTitle>
           </CardBody>

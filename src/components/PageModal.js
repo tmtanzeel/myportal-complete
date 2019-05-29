@@ -28,13 +28,13 @@ class PageModal extends Component {
             <Container>
               <Row>
                 <Col xs="3" sm="3">
-                  <img src={require('./usable/chef.png')}/>
+                  <img src={require('./usable/chef.png')} alt=""/>
                 </Col>
                 <Col xs="9" sm="9">
                   <span className="modal-text">
                     This website is handmade with 100% pure ReactJS and the best quality of ES6 ingredients.
                     <br/>
-                    <img src={require('./usable/veg.png')}/>&nbsp;Contains reactstrap v4
+                    <img src={require('./usable/veg.png')} alt=""/>&nbsp;Contains reactstrap v4
                   </span>
                   <br/>
                   <span className="modal-text">
