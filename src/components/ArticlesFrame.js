@@ -28,7 +28,7 @@ class CardFrame extends Component {
       "~$ sudo chmod +x /etc/profile.d/gradle.sh", "~$ source /etc/profile.d/gradle.sh", "~$ gradle -v"], contribute: ["Tanzeel Mirza, Admin"], image: "gradle.png"},
       {name: "Update local repo", demo:["Connect the upstream remote to your local repo.", "Pull changes"], likes: ["~$ git remote add upstream https://github.com/tmtanzee/demorepo.git","~$ git pull upstream master"], contribute: ["Tanzeel Mirza, Admin"], image: "git-1.png"},
       {name: "font-awesome cdn", demo:["Simple paste this above your <head> tag in public/index.html", "Call any font awesome icon anywhere in your project. For eg"], likes: ["<script src=https://use.fontawesome.com/f3025a1262.js></script>", "<i className='fa fa-heart fa-1x'></i>"], contribute: ["Tanzeel Mirza, Admin"], image: "font-awesome.png"},
-      {name: "Update nodejs", demo:["Clear npm cache first", "Install 'n' package", "Run 'n' command with an specific version or the latest"], likes: ["npm cache clean -f", "npm install -g n", "n latest"], contribute: ["Tanzeel Mirza, Admin"], image: "font-awesome.png"}
+      {name: "Update nodejs", demo:["Clear npm cache first", "Install 'n' package", "Run 'n' command with an specific version or the latest"], likes: ["npm cache clean -f", "npm install -g n", "n latest"], contribute: ["Tanzeel Mirza, Admin"], image: "update-node.png"}
     ],
     rendernow: false,
     content: null
